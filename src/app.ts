@@ -2,6 +2,7 @@ import express, { Application, Request, Response } from "express";
 import config from "./config";
 import cors from "cors"
 import cookieParser from "cookie-parser";
+import { prisma } from "./lib/prisma";
 
 const app: Application = express()
 
